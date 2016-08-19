@@ -1,0 +1,282 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EB77ECB61D67B75500D81B80 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB77ECB51D67B75500D81B80 /* AppDelegate.swift */; };
+		EB77ECB81D67B75500D81B80 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EB77ECB71D67B75500D81B80 /* ViewController.swift */; };
+		EB77ECBA1D67B75500D81B80 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EB77ECB91D67B75500D81B80 /* Assets.xcassets */; };
+		EB77ECBD1D67B75600D81B80 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EB77ECBB1D67B75600D81B80 /* Main.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		EB77ECB21D67B75500D81B80 /* MultiRedditCreator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiRedditCreator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EB77ECB51D67B75500D81B80 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EB77ECB71D67B75500D81B80 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EB77ECB91D67B75500D81B80 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EB77ECBC1D67B75600D81B80 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EB77ECBE1D67B75600D81B80 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EB77ECAF1D67B75500D81B80 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EB77ECA91D67B75500D81B80 = {
+			isa = PBXGroup;
+			children = (
+				EB77ECB41D67B75500D81B80 /* MultiRedditCreator */,
+				EB77ECB31D67B75500D81B80 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EB77ECB31D67B75500D81B80 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EB77ECB21D67B75500D81B80 /* MultiRedditCreator.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EB77ECB41D67B75500D81B80 /* MultiRedditCreator */ = {
+			isa = PBXGroup;
+			children = (
+				EB77ECB51D67B75500D81B80 /* AppDelegate.swift */,
+				EB77ECB71D67B75500D81B80 /* ViewController.swift */,
+				EB77ECB91D67B75500D81B80 /* Assets.xcassets */,
+				EB77ECBB1D67B75600D81B80 /* Main.storyboard */,
+				EB77ECBE1D67B75600D81B80 /* Info.plist */,
+			);
+			path = MultiRedditCreator;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EB77ECB11D67B75500D81B80 /* MultiRedditCreator */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EB77ECC11D67B75600D81B80 /* Build configuration list for PBXNativeTarget "MultiRedditCreator" */;
+			buildPhases = (
+				EB77ECAE1D67B75500D81B80 /* Sources */,
+				EB77ECAF1D67B75500D81B80 /* Frameworks */,
+				EB77ECB01D67B75500D81B80 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MultiRedditCreator;
+			productName = MultiRedditCreator;
+			productReference = EB77ECB21D67B75500D81B80 /* MultiRedditCreator.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EB77ECAA1D67B75500D81B80 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Pedro Howat";
+				TargetAttributes = {
+					EB77ECB11D67B75500D81B80 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = EB77ECAD1D67B75500D81B80 /* Build configuration list for PBXProject "MultiRedditCreator" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EB77ECA91D67B75500D81B80;
+			productRefGroup = EB77ECB31D67B75500D81B80 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EB77ECB11D67B75500D81B80 /* MultiRedditCreator */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EB77ECB01D67B75500D81B80 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB77ECBA1D67B75500D81B80 /* Assets.xcassets in Resources */,
+				EB77ECBD1D67B75600D81B80 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EB77ECAE1D67B75500D81B80 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB77ECB81D67B75500D81B80 /* ViewController.swift in Sources */,
+				EB77ECB61D67B75500D81B80 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		EB77ECBB1D67B75600D81B80 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EB77ECBC1D67B75600D81B80 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EB77ECBF1D67B75600D81B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EB77ECC01D67B75600D81B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		EB77ECC21D67B75600D81B80 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiRedditCreator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.phow.MultiRedditCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		EB77ECC31D67B75600D81B80 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = MultiRedditCreator/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = at.phow.MultiRedditCreator;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EB77ECAD1D67B75500D81B80 /* Build configuration list for PBXProject "MultiRedditCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB77ECBF1D67B75600D81B80 /* Debug */,
+				EB77ECC01D67B75600D81B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EB77ECC11D67B75600D81B80 /* Build configuration list for PBXNativeTarget "MultiRedditCreator" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EB77ECC21D67B75600D81B80 /* Debug */,
+				EB77ECC31D67B75600D81B80 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EB77ECAA1D67B75500D81B80 /* Project object */;
+}
