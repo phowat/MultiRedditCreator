@@ -685,6 +685,23 @@
                                             <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                             <size key="minSize" width="630" height="305"/>
                                             <size key="maxSize" width="630" height="10000000"/>
+                                            <attributedString key="textStorage">
+                                                <fragment>
+                                                    <string key="content">
+https://www.reddit.com/r/earthporn
+https://www.reddit.com/r/WaterPorn
+WeatherPorn/
+https://www.reddit.com/r/WinterPorn/
+LavaPorn
+www.reddit.com/r/LakePorn
+https://www.reddit.com/r/VillagePorn
+https://www.reddit.com/r/RuralPorn</string>
+                                                    <attributes>
+                                                        <font key="NSFont" metaFont="smallSystem"/>
+                                                        <paragraphStyle key="NSParagraphStyle" alignment="natural" lineBreakMode="wordWrapping" baseWritingDirection="natural" tighteningFactorForTruncation="0.0"/>
+                                                    </attributes>
+                                                </fragment>
+                                            </attributedString>
                                             <color key="insertionPointColor" name="controlTextColor" catalog="System" colorSpace="catalog"/>
                                             <size key="minSize" width="630" height="305"/>
                                             <size key="maxSize" width="630" height="10000000"/>
